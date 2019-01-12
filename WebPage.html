@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head><title>Web Server Page</title></head>
+<body>
+<img src="img.jpg" alt="Dog">
+<h2 align="left">LOGIN</h2>
+<form method="POST" action="login">
+    Enter your name: <input type="text" name="username"><br /><br />
+    Enter your password: <input type="password" name="password"><br /><br />
+    <input type="submit" value="Login" />
+    <input type="hidden" name="action" value="login" />
+</form>
+<br /><br />
+<h2 align="left">SIGN UP</h2>
+<form method="POST" action="signup">
+    Enter your name: <input type="text" name="username"><br /><br />
+    Enter your password: <input type="password" name="password"><br /><br />
+    Enter your favourite number: <input type="text" name="number"><br /><br />
+    <input type="submit" value="Sign Up" />
+    <input type="hidden" name="action" value="signup" />
+</form>
+</body>
+</html>
